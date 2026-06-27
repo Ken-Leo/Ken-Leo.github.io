@@ -1,9 +1,248 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hi, this is an initial personal website!</h1>
-<p>I am trying to share my researches with you.
-  <p>  Coming soon...</p>
-  <p> Hosted with GitHub Pages.</p>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ke Luo | Academic Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 leading-relaxed">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-bold text-xl tracking-tight text-slate-900">Ke Luo</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-indigo-600 transition-colors">About</a>
+                <a href="#education" class="hover:text-indigo-600 transition-colors">Education</a>
+                <a href="#research" class="hover:text-indigo-600 transition-colors">Research</a>
+                <a href="#publications" class="hover:text-indigo-600 transition-colors">Publications</a>
+                <a href="#contact" class="hover:text-indigo-600 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="mb-6 inline-block p-1 rounded-full bg-slate-200">
+                <img src="https://via.placeholder.com/150" alt="Ke Luo" class="w-32 h-32 rounded-full object-cover bg-white">
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">Ke Luo</h1>
+            <p class="text-xl text-slate-600 mb-6 font-medium">Postdoctoral Fellow at Huazhong University of Science and Technology (HUST)</p>
+            
+            <div class="flex justify-center space-x-4 mb-8">
+                <a href="mailto:luoke_kenleo@hust.edu.cn" class="flex items-center px-4 py-2 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-all shadow-sm">
+                    <i class="fa-regular fa-envelope mr-2"></i> Email
+                </a>
+                <a href="https://github.com/Ken-Leo" target="_blank" class="flex items-center px-4 py-2 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-all shadow-sm">
+                    <i class="fa-brands fa-github mr-2"></i> GitHub
+                </a>
+                <a href="#" target="_blank" class="flex items-center px-4 py-2 bg-white border border-slate-200 rounded-full text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-indigo-600 transition-all shadow-sm">
+                    <i class="fa-solid fa-graduation-cap mr-2"></i> Google Scholar
+                </a>
+            </div>
+            
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                Highly-motivated Ph.D. in Computer Science (Computer Architecture) specializing in <span class="text-indigo-600 font-semibold">storage channel modeling, analysis, and signal processing</span>. 
+                Enthusiastic about data storage technologies and deep learning inspired information theory.
+            </p>
+        </div>
+    </header>
+
+    <!-- About / Research Interests -->
+    <section id="about" class="py-16 px-6 bg-white border-y border-slate-200">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+                <span class="w-8 h-1 bg-indigo-600 mr-3 rounded-full"></span> Research Interests
+            </h2>
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium border border-indigo-100">Storage</span>
+                <span class="px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium border border-indigo-100">Magnetic recording</span>
+                <span class="px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium border border-indigo-100">HDD</span>
+                <span class="px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium border border-indigo-100">Tape</span>
+                <span class="px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium border border-indigo-100">Optical storage</span>
+                <span class="px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium border border-indigo-100">Signal processing</span>
+                <span class="px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium border border-indigo-100">ECC</span>
+                <span class="px-4 py-1.5 bg-slate-100 text-slate-600 rounded-full text-sm font-medium border border-slate-200">Python</span>
+                <span class="px-4 py-1.5 bg-slate-100 text-slate-600 rounded-full text-sm font-medium border border-slate-200">C</span>
+                <span class="px-4 py-1.5 bg-slate-100 text-slate-600 rounded-full text-sm font-medium border border-slate-200">Matlab/Octave</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+                <span class="w-8 h-1 bg-indigo-600 mr-3 rounded-full"></span> Education
+            </h2>
+            <div class="space-y-8 relative before:absolute before:left-3 before:top-2 before:bottom-2 before:w-px before:bg-slate-200">
+                <div class="relative pl-10">
+                    <div class="absolute left-0 top-1.5 w-6 h-6 bg-white border-4 border-indigo-600 rounded-full"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                        <h3 class="font-bold text-slate-900 text-lg">Postdoc, Optical Engineering</h3>
+                        <span class="text-sm font-medium text-slate-500">March 2023 — Present</span>
+                    </div>
+                    <p class="text-slate-600 font-medium">Huazhong University of Science and Technology (HUST)</p>
+                    <p class="text-slate-500 text-sm">Mentor: Prof. Jincai Chen, Prof. Jingyu Zhang</p>
+                </div>
+                <div class="relative pl-10">
+                    <div class="absolute left-0 top-1.5 w-6 h-6 bg-white border-4 border-slate-300 rounded-full"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                        <h3 class="font-bold text-slate-900 text-lg">Ph.D., Computer Architecture</h3>
+                        <span class="text-sm font-medium text-slate-500">Sept 2016 — Dec 2022</span>
+                    </div>
+                    <p class="text-slate-600 font-medium">Huazhong University of Science and Technology (HUST)</p>
+                    <p class="text-slate-500 text-sm">Supervisor: Prof. Jincai Chen</p>
+                </div>
+                <div class="relative pl-10">
+                    <div class="absolute left-0 top-1.5 w-6 h-6 bg-white border-4 border-slate-300 rounded-full"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                        <h3 class="font-bold text-slate-900 text-lg">Bachelor, Electronics and Information Engineering</h3>
+                        <span class="text-sm font-medium text-slate-500">Sept 2012 — June 2016</span>
+                    </div>
+                    <p class="text-slate-600 font-medium">South-Central Minzu University</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Projects -->
+    <section id="research" class="py-16 px-6 bg-slate-100">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+                <span class="w-8 h-1 bg-indigo-600 mr-3 rounded-full"></span> Selected Projects
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-2">NSFC (62272178)</div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-3 leading-snug">3D Heat-Assisted Magnetic Recording</h3>
+                    <p class="text-slate-600 text-sm mb-4">Developed 3D magnetic recording medium and readback models, achieving dual-layer recording to double storage density.</p>
+                    <div class="text-xs text-slate-400 font-medium">2023 — 2026 (Ongoing)</div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-2">NSFC (61672246)</div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-3 leading-snug">2D Magnetic Recording Systems</h3>
+                    <p class="text-slate-600 text-sm mb-4">Established systematic framework for 2D recording including write/readback channels and NN-based equalization.</p>
+                    <div class="text-xs text-slate-400 font-medium">2017 — 2020</div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-2">NSFC (61272068)</div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-3 leading-snug">Bit-Patterned Magnetic Recording</h3>
+                    <p class="text-slate-600 text-sm mb-4">Modeled BPMR read channels and analyzed recording bit arrangements for shingled recording technology.</p>
+                    <div class="text-xs text-slate-400 font-medium">2013 — 2016</div>
+                </div>
+                <!-- Project 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Corporate Collaboration</div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-3 leading-snug">Multi-layer Blu-ray Disc PRML</h3>
+                    <p class="text-slate-600 text-sm mb-4">Achieved RF signal sample detection for 300GB-500GB discs, meeting commercial requirements.</p>
+                    <div class="text-xs text-slate-400 font-medium">2024 — 2025 (Ongoing)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+                <span class="w-8 h-1 bg-indigo-600 mr-3 rounded-full"></span> Publications
+            </h2>
+            
+            <div class="space-y-10">
+                <!-- Journals -->
+                <div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                        <i class="fa-solid fa-book-open mr-2 text-indigo-600"></i> Journal Articles
+                    </h3>
+                    <ul class="space-y-4 text-sm">
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "Enhancing Bottom-Layer Detection in Dual-Layer 3-D Magnetic Recording via Top-Layer-Assisted Signal Rescaling." <span class="italic">IEEE Transactions on Magnetics</span>, 2026. <a href="https://doi.org/10.1109/TMAG.2025.3601437" class="text-indigo-600 hover:underline ml-1">DOI</a>
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Ke Luo</span>, et al. "On the impact of interlayer misalignment for dual-layer data detection in three dimensional magnetic recording." <span class="italic">Journal of Magnetism and Magnetic Materials</span>, 2024. <a href="https://doi.org/10.1016/j.jmmm.2024.172522" class="text-indigo-600 hover:underline ml-1">DOI</a>
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "A Graded Precompensation Scheme by Pattern Classification on Nonlinear Transition Shift for Perpendicular Magnetic Recording." <span class="italic">IEEE Transactions on Magnetics</span>, 2023. <a href="https://doi.org/10.1109/TMAG.2023.3288371" class="text-indigo-600 hover:underline ml-1">DOI</a>
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "Read Channel Modeling and Neural Network Block Predictor for Two-Dimensional Magnetic Recording." <span class="italic">IEEE Transactions on Magnetics</span>, 2020. <a href="https://doi.org/10.1109/TMAG.2019.2950704" class="text-indigo-600 hover:underline ml-1">DOI</a>
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "A Study on Block-Based Neural Network Equalization in TDMR System With LDPC Coding." <span class="italic">IEEE Transactions on Magnetics</span>, 2019. <a href="https://doi.org/10.1109/TMAG.2019.2931760" class="text-indigo-600 hover:underline ml-1">DOI</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Conferences -->
+                <div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                        <i class="fa-solid fa-microphone-lines mr-2 text-indigo-600"></i> Conference Proceedings
+                    </h3>
+                    <ul class="space-y-4 text-sm">
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "Interference Mitigation via Top-Layer-Assisted Signal Rescaling in Dual-Layer 3D Magnetic Recording." <span class="italic">The Magnetic Recording Conference (TMRC)</span>, 2025.
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            Zhu, C., et al. "Enhancing Speech Emotion Recognition with Speech Dynamic Modeling and Multi-Modal Knowledge Distillation." <span class="italic">ICASSP</span>, 2025.
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            Liu, Y., <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "Multi-modal Image Reflection Removal with Prior Knowledge of Reflection Structure Inconsistency." <span class="italic">DSS</span>, 2024.
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "The Compatible Partial Response Maximum Likelihood Detection Schemes for Blu-ray Discs." <span class="italic">ECTI-CON</span>, 2024. <a href="https://doi.org/10.1109/ECTI-CON60892.2024.10594973" class="text-indigo-600 hover:underline ml-1">DOI</a>
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "Quaternary Neural Network Equalization for Three-Dimensional Magnetic Recording." <span class="italic">INTERMAG</span>, 2024.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Patents -->
+                <div>
+                    <h3 class="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                        <i class="fa-solid fa-file-shield mr-2 text-indigo-600"></i> Patents
+                    </h3>
+                    <ul class="space-y-4 text-sm">
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "A Method for Detecting Readback Signal Sample Sequences in Optical Disc Data Reading Process." <span class="italic">National Invention Patent of China</span>, 2025.
+                        </li>
+                        <li class="pl-4 border-l-2 border-slate-200">
+                            <span class="font-semibold text-slate-900">Luo, Ke</span>, et al. "A Classification Compensation Method for Non-Linear Transition Shift in the Process of Disk Data Writing." <span class="italic">National Invention Patent of China</span>, 2023. (CN 117059134 A)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact" class="py-16 px-6 bg-slate-900 text-slate-400">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-2xl font-bold text-white mb-8">Get in Touch</h2>
+            <div class="flex justify-center space-x-6 mb-12">
+                <a href="mailto:luoke_kenleo@hust.edu.cn" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://github.com/Ken-Leo" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                <p>&copy; 2016—2026 Ke Luo. All rights reserved.</p>
+                <a href="resume-en.pdf" target="_blank" class="flex items-center text-indigo-400 hover:text-indigo-300 transition-colors font-medium">
+                    <i class="fa-solid fa-file-pdf mr-2"></i> Download Full CV (PDF)
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
