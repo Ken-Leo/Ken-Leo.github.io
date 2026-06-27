@@ -1,6 +1,21 @@
-# Ken-Leo.github.io
-This is reserved as a personal page. Studys and Researches will be shared.
+# Ke Luo's Academic Homepage
 
-Coming soon...
+This is the source code for my personal academic website, hosted at [https://ken-leo.github.io](https://ken-leo.github.io).
 
-A simple **resume** can be found at [here](https://ken-leo.github.io/kenleo.resume/).
+## 🚀 Features
+- **Professional Profile**: Overview of my academic background and current role as a Postdoctoral Researcher at HUST.
+- **Research Interests**: Focused on magnetic recording systems, signal processing, and 3DMR.
+- **Publications**: A curated list of journal articles, conference papers, and patents.
+- **CV**: Direct access to my latest resume in PDF format.
+
+## 🛠️ Tech Stack
+- **Frontend**: HTML5, Tailwind CSS (via CDN)
+- **Icons**: Font Awesome 6
+- **Deployment**: GitHub Pages
+
+## 📂 Structure
+- `index.html`: The main entry point containing the entire academic profile.
+- `resume-en.pdf`: The latest version of my English CV.
+
+---
+© 2016–2026 Ke Luo. All rights reserved.
